@@ -80,25 +80,29 @@ Taller-Aspirantes/
 
 Se muestra el formulario con los campos que debe completar el aspirante y la opción para seleccionar una fotografía.
 
-![Formulario de registro de aspirantes](imagenes/formulario-registro.png)
+<img width="811" height="1020" alt="formulario-registro" src="https://github.com/user-attachments/assets/fa1824f3-d530-47ec-a094-3582765ad268" />
+
 
 ### 2. Registro procesado correctamente
 
 Al ingresar datos válidos, el sistema muestra la información del aspirante, su edad calculada y la confirmación de que la fotografía fue guardada.
 
-![Resultado de un registro exitoso](imagenes/registro-exitoso.png)
+<img width="871" height="781" alt="registro-exitoso" src="https://github.com/user-attachments/assets/ffc27f44-66d0-4481-a778-307f105f6ef0" />
+
 
 ### 3. Validación de edad
 
 Cuando el aspirante no cumple con el rango establecido de 18 a 70 años, el sistema muestra un mensaje de error y no completa el registro.
 
-![Mensaje de error por edad no permitida](imagenes/validacion-edad.png)
+<img width="836" height="458" alt="validacion-edad" src="https://github.com/user-attachments/assets/eb034c64-f3dc-44e9-bad9-0a672fc5c743" />
+
 
 ### 4. Protección de la carpeta de fotografías
 
 Se comprueba que Apache devuelve **403 Forbidden** cuando se intenta abrir directamente una fotografía almacenada en `uploaded_files/` desde el navegador.
 
-![Acceso denegado a la carpeta de fotografías](imagenes/acceso-denegado.png)
+<img width="722" height="202" alt="acceso-denegado" src="https://github.com/user-attachments/assets/e66f5682-169b-4d44-b030-4b6b0bd41c19" />
+
 
 ## 🔒 Medidas de seguridad
 
